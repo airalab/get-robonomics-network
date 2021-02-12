@@ -1,5 +1,3 @@
-# Robonomics node one-line installer
-
 Run the following in your terminal, then follow the onscreen instructions.
 
 ```bash

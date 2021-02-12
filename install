@@ -17,8 +17,7 @@ if [ "$KSH_VERSION" = 'Version JM 93t+ 2010-03-05' ]; then
 fi
 
 IPFS_GATEWAY='https://ipfs.io'
-#ROBONOMICS_DIST="${IPFS_GATEWAY}/ipns/get.robonomics.network"
-ROBONOMICS_DIST="${IPFS_GATEWAY}/ipfs/QmXd9dWoLTruULBCRGjhKGDqoQyjkz8aru6KC18w6TLoHi"
+ROBONOMICS_DIST="${IPFS_GATEWAY}/ipns/get.robonomics.network"
 
 set -u
 

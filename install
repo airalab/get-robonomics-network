@@ -122,10 +122,6 @@ main() {
     fi
 
     ensure install "$_file" "$_dir"
-    if [ ! -x "$_dir/robonomics" ]; then
-        printf '%s\n' "Cannot unpack $_file." 1>&2
-        exit 1
-    fi
 
     ignore rm "$_file"
     ignore rm "$_dir/robonomics"
